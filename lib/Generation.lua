@@ -81,8 +81,7 @@ function Generation:SetSwapsCallback(Callback: (Interface: table) -> ())
 end
 
 function Generation:GetBase(Module): (string, boolean)
-	--local Code = "-- Generated with sigma spy BOIIIIIIIII (+9999999 AURA)\n"
-	local Code = "-- Generated with Sigma Spy Github: https://github.com/depthso/Sigma-Spy\n"
+	local Code = "-- Generated with Aurora Rspy\n"
 
 	--// Generate variables code
 	local Variables = Module.Parser:MakeVariableCode({
